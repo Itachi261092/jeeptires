@@ -989,7 +989,7 @@ a:hover u {
 }
 .b-calc__select__between {
   display: inline-block;
-  margin: 0 -8px;
+  margin: 0 -4px;
   position: relative;
   top: 2px;
 }
@@ -1360,7 +1360,7 @@ a:hover u {
   background: #ffeb58;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 10px;
+  padding: 0 4px 0 9px;
   position: relative;
   z-index: 1;
 }
