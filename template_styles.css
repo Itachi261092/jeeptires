@@ -1853,6 +1853,9 @@ a:hover u {
 .b-slider__nav--next {
   right: 0;
 }
+.b-slider__nav:hover {
+  opacity: 0.7;
+}
 .b-slider__item {
   height: 350px;
   background-color: #25213c;
