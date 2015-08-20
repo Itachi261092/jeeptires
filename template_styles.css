@@ -2131,6 +2131,7 @@ a:hover u {
 .b-subheading--h5 {
   font-size: 16px;
   margin-bottom: 22px;
+  margin-top: 21px;
 }
 .b-catalog--wheels .b-catalog__pic {
   padding-top: 0;
@@ -4583,7 +4584,7 @@ a:hover u {
 }
 .b-seasons {
   margin-top: -12px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .b-seasons__item {
   height: 74px;
