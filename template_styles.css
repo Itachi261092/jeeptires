@@ -4771,13 +4771,15 @@ a:hover u {
   color: #ff9600;
 }
 .b-footer__phone {
-  display: inline-block;
+  float: left;
+  margin-left: 71px;
   text-align: right;
 }
 @media all and (max-width: 1200px) {
   .b-footer__phone {
     display: block;
     margin-bottom: 18px;
+    float: right;
   }
 }
 @media all and (max-width: 992px) {
@@ -4785,6 +4787,8 @@ a:hover u {
     clear: both;
     text-align: left;
     padding-top: 34px;
+    margin-left: 0;
+    float: left;
   }
 }
 .b-footer__phone__number {

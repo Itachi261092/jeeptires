@@ -5358,18 +5358,22 @@ a {
 	}
 
 	&__phone {
-		display: inline-block;
+      float: left;
+      margin-left: 71px;
 		text-align: right;
 
 		@media all and (max-width: @mq-large) {
 			display: block;
 			margin-bottom: 18px;
+            float: right;
 		}
 
 		@media all and (max-width: @mq-medium) {
 			clear: both;
 			text-align: left;
 			padding-top: 34px;
+            margin-left: 0;
+            float: left;
 		}
 
 		&__number {
