@@ -4801,12 +4801,14 @@ a:hover u {
   float: right;
   text-align: right;
   color: #6b6b6b;
+  margin-top: -6px;
 }
 @media all and (max-width: 992px) {
   .b-footer__contacts {
     float: none;
     clear: both;
     text-align: left;
+    margin-top: 0;
   }
 }
 .b-footer__madeby {
