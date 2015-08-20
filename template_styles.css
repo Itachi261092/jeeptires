@@ -781,7 +781,7 @@ a:hover u {
   background: url('img/calc.png') no-repeat;
   margin-right: 10px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 992px) {
   .b-header__calc {
     display: none;
   }
