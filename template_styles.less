@@ -202,7 +202,7 @@ a {
 .l-gray {
 	background: @bg-light;
 	border-bottom: 1px solid #e2e2e2;
-	padding: 16px 0 15px;
+	padding: 15px 0;
 
 	@media all and (max-width: @mq-medium) {
 		padding: 8px 0;
@@ -1111,10 +1111,6 @@ a {
 			line-height: 40px;
 		}
 
-        >span:nth-child(2) {
-            margin: 0 -3px 0 0px;
-        }
-
 		&__between {
 			display: inline-block;
 			margin: 0 -8px;
@@ -1527,7 +1523,7 @@ a {
 
 		svg {
 			width: 10px;
-			height: 41px;
+			height: 37px;
 			// shape-rendering: crispEdges;
 			position: absolute;
 			top: -1px;
@@ -1591,7 +1587,6 @@ a {
 .b-tires-calc-text {
 	color: #727272;
 	margin-bottom: 16px;
-    font-size:15px;
 
 	@media all and (max-width: @mq-small) {
 		display: none;
@@ -2125,7 +2120,7 @@ a {
 
 	&--h2 {
 		font-size: 24px;
-		margin: 40px 0 22px;
+		margin: 40px 0 30px;
 
 		@media all and (max-width: @mq-small) {
 			font-size: 16px;
@@ -2437,10 +2432,6 @@ a {
 			display: inline-block;
 			color: @color-blue;
 			margin-left: 14px;
-
-            &:hover {
-                color:#FF9600;
-            }
 
 			&:after {
 				.inline-blocky;
@@ -3762,7 +3753,6 @@ a {
 		border: 1px solid #c2c2c2;
 		box-shadow: 0 3px 3px rgba(0, 0, 0, .07);
 		margin-bottom: 24px;
-        margin-top: 11px;
 
 		@media all and (max-width: @mq-medium) {
 			width: auto;
@@ -3785,22 +3775,9 @@ a {
 
 	&__clear {
 		color: @color-blue;
-        display: inline;
-        height: 35px;
-        font-size: 17px;
-        line-height: 35px;
-        text-align: center;
-        letter-spacing: 0.05em;
-        border: 1px solid transparent;
-        width:97px;
-        border-color: #e2e2e2;
-        padding: 9px 13px;
-        position: relative;
-        top: 2px;
 
 		&:hover {
-			text-decoration: none;
-            background: #f6f6f6;
+			text-decoration: underline;
 		}
 	}
 
@@ -3870,9 +3847,6 @@ a {
 		}
 
 	}
-    &__submit button{
-        margin-bottom: 18px;
-    }
 
 } // .b-service
 
@@ -3939,10 +3913,6 @@ a {
 				&:last-child {
 					display: none;
 				}
-                &:nth-child(4) {
-                  width:128px;
-                }
-
 			}
 		}
 	}
@@ -4086,7 +4056,6 @@ a {
 
 		&:last-child {
 			margin-bottom: 0;
-            border-color: #e2e2e2;
 		}
 
 		&--remove {
@@ -4107,11 +4076,6 @@ a {
 
 		.b-calc__submit {
 			width: 100%;
-            height:41px;
-
-            svg {
-              height: 41px;
-            }
 		}
 	}
 
@@ -4424,7 +4388,7 @@ a {
 .b-detail {
 	border-top: 1px solid #f0f0f0;
 	padding-top: 11px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 
 	@media all and (max-width: @mq-small) {
 		margin-bottom: 14px;
@@ -4504,27 +4468,18 @@ a {
 			font-size: 22px;
 			z-index: 1;
 			cursor: pointer;
-            padding:5px;
-            margin-top:-5px;
 
 			@media all and (max-width: @mq-small) {
 				left: 2px;
 			}
 
-			&:hover {
-                opacity: 0.7;
-            }
 			&:before {
 				content: '\e874';
 			}
 
-            &--prev {
-                margin-left: -5px;
-            }
-
 			&--next {
 				left: auto;
-				right: 42px;
+				right: 47px;
 
 				@media all and (max-width: @mq-small) {
 					right: 2px;
@@ -5520,8 +5475,7 @@ a {
 
 	&__submit {
 		padding: 0 25px;
-		height: 41px;
-
+		height: 37px;
 		background: #ffeb58;
 		border: 1px solid #ffbe06;
 		font-size: 14px;
