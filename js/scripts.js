@@ -81,7 +81,7 @@ $(document).ready(function(){
 		paginationBulletRender: function (index, className) {
 			return '<div class="'+className +'"><i></i></div>';
 		},
-		speed: 700
+		speed: 300
 	});
 
 	// catalog slider
