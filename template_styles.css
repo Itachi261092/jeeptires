@@ -109,7 +109,7 @@ a:hover u {
   }
 }
 .l-container--content {
-  padding-top: 18px;
+  padding-top: 8px;
 }
 .l-row {
   margin: 0 -10px;
@@ -157,7 +157,7 @@ a:hover u {
 .l-gray {
   background: url('img/bg-light.jpg') 50% 0 #f0f0f0;
   border-bottom: 1px solid #e2e2e2;
-  padding: 15px 0;
+  padding: 17px 0 26px 0;
 }
 @media all and (max-width: 992px) {
   .l-gray {
@@ -781,7 +781,7 @@ a:hover u {
   background: url('img/calc.png') no-repeat;
   margin-right: 10px;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 992px) {
   .b-header__calc {
     display: none;
   }
@@ -989,7 +989,7 @@ a:hover u {
 }
 .b-calc__select__between {
   display: inline-block;
-  margin: 0 -8px;
+  margin: 0 -4px;
   position: relative;
   top: 2px;
 }
@@ -1360,7 +1360,7 @@ a:hover u {
   background: #ffeb58;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 10px;
+  padding: 0 4px 0 9px;
   position: relative;
   z-index: 1;
 }
@@ -1853,6 +1853,9 @@ a:hover u {
 .b-slider__nav--next {
   right: 0;
 }
+.b-slider__nav:hover {
+  opacity: 0.7;
+}
 .b-slider__item {
   height: 350px;
   background-color: #25213c;
@@ -1928,7 +1931,8 @@ a:hover u {
 }
 .b-heading--h2 {
   font-size: 24px;
-  margin: 40px 0 30px;
+  margin: 26px 0 30px;
+  line-height: 26px;
 }
 @media all and (max-width: 767px) {
   .b-heading--h2 {
@@ -2128,6 +2132,7 @@ a:hover u {
 .b-subheading--h5 {
   font-size: 16px;
   margin-bottom: 22px;
+  margin-top: 21px;
 }
 .b-catalog--wheels .b-catalog__pic {
   padding-top: 0;
@@ -2198,8 +2203,8 @@ a:hover u {
 .b-catalog__bottom {
   border-top: 1px solid #f0f0f0;
   padding-top: 21px;
-  margin-top: 27px;
-  margin-bottom: 25px;
+  margin-top: -14px;
+  margin-bottom: 33px;
 }
 @media all and (max-width: 767px) {
   .b-catalog__bottom {
@@ -2529,6 +2534,7 @@ a:hover u {
 }
 .b-aside + .b-catalog {
   margin-right: 237px;
+  margin-bottom: 43px;
 }
 @media all and (max-width: 767px) {
   .b-aside + .b-catalog {
@@ -3198,6 +3204,15 @@ a:hover u {
     margin-top: 23px;
   }
 }
+.b-news-preview__all {
+  display: none;
+}
+@media all and (max-width: 600px) {
+  .b-news-preview__all {
+    display: block;
+    margin-top: 5px;
+  }
+}
 .b-about-video {
   padding: 15px 0 14px;
   margin-bottom: 12px;
@@ -3450,6 +3465,7 @@ a:hover u {
   opacity: 0;
   -webkit-transition: all 0.12s ease-in-out;
   transition: all 0.12s ease-in-out;
+  border-color: #004b8e #004b8e #004b8e transparent;
 }
 .b-service__options input[type="checkbox"]:checked + label:before {
   top: 0;
@@ -4419,7 +4435,7 @@ a:hover u {
   text-decoration: underline;
 }
 .b-breadcrumbs + .b-heading {
-  margin-top: 11px;
+  margin-top: 20px;
 }
 @media all and (max-width: 767px) {
   .b-breadcrumbs + .b-heading--hidden {
@@ -4475,6 +4491,7 @@ a:hover u {
   border: 1px solid #c2c2c2;
   padding: 23px 25px 0 15px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.07);
+  margin-right: 23px;
 }
 @media all and (max-width: 767px) {
   .b-search-request {
@@ -4576,9 +4593,13 @@ a:hover u {
     width: 100%;
   }
 }
+.b-search-request textarea.b-form__label__field {
+  height: 119px;
+  resize: none;
+}
 .b-seasons {
   margin-top: -12px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .b-seasons__item {
   height: 74px;
@@ -4766,13 +4787,15 @@ a:hover u {
   color: #ff9600;
 }
 .b-footer__phone {
-  display: inline-block;
+  float: left;
+  margin-left: 71px;
   text-align: right;
 }
 @media all and (max-width: 1200px) {
   .b-footer__phone {
     display: block;
     margin-bottom: 18px;
+    float: right;
   }
 }
 @media all and (max-width: 992px) {
@@ -4780,6 +4803,8 @@ a:hover u {
     clear: both;
     text-align: left;
     padding-top: 34px;
+    margin-left: 0;
+    float: left;
   }
 }
 .b-footer__phone__number {
@@ -4791,12 +4816,14 @@ a:hover u {
   float: right;
   text-align: right;
   color: #6b6b6b;
+  margin-top: -6px;
 }
 @media all and (max-width: 992px) {
   .b-footer__contacts {
     float: none;
     clear: both;
     text-align: left;
+    margin-top: 0;
   }
 }
 .b-footer__madeby {
@@ -4821,6 +4848,9 @@ a:hover u {
   display: block;
   line-height: 30px;
   padding-bottom: 14px;
+}
+.b-form__label--comment {
+  display: none;
 }
 @media all and (max-width: 767px) {
   .b-form__label {

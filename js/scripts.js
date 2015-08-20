@@ -81,7 +81,7 @@ $(document).ready(function(){
 		paginationBulletRender: function (index, className) {
 			return '<div class="'+className +'"><i></i></div>';
 		},
-		speed: 700
+		speed: 300
 	});
 
 	// catalog slider
@@ -308,4 +308,8 @@ $(document).ready(function(){
 		bTrack.css( 'width', bSpeedVal + '%' )
 	}
 
+    $(".b-search-request__comment-link").on("click", function (e) {
+        e.preventDefault();
+        $(this).closest("form").find(".b-form__label--comment").fadeIn("fast");
+    })
 });
