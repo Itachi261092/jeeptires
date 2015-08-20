@@ -109,7 +109,7 @@ a:hover u {
   }
 }
 .l-container--content {
-  padding-top: 18px;
+  padding-top: 8px;
 }
 .l-row {
   margin: 0 -10px;
@@ -157,7 +157,7 @@ a:hover u {
 .l-gray {
   background: url('img/bg-light.jpg') 50% 0 #f0f0f0;
   border-bottom: 1px solid #e2e2e2;
-  padding: 15px 0;
+  padding: 17px 0 26px 0;
 }
 @media all and (max-width: 992px) {
   .l-gray {
@@ -2201,8 +2201,8 @@ a:hover u {
 .b-catalog__bottom {
   border-top: 1px solid #f0f0f0;
   padding-top: 21px;
-  margin-top: 27px;
-  margin-bottom: 25px;
+  margin-top: -14px;
+  margin-bottom: 33px;
 }
 @media all and (max-width: 767px) {
   .b-catalog__bottom {
@@ -2532,6 +2532,7 @@ a:hover u {
 }
 .b-aside + .b-catalog {
   margin-right: 237px;
+  margin-bottom: 43px;
 }
 @media all and (max-width: 767px) {
   .b-aside + .b-catalog {
@@ -4422,7 +4423,7 @@ a:hover u {
   text-decoration: underline;
 }
 .b-breadcrumbs + .b-heading {
-  margin-top: 11px;
+  margin-top: 20px;
 }
 @media all and (max-width: 767px) {
   .b-breadcrumbs + .b-heading--hidden {
