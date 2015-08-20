@@ -308,4 +308,8 @@ $(document).ready(function(){
 		bTrack.css( 'width', bSpeedVal + '%' )
 	}
 
+    $(".b-search-request__comment-link").on("click", function (e) {
+        e.preventDefault();
+        $(this).closest("form").find(".b-form__label--comment").fadeIn("fast");
+    })
 });
