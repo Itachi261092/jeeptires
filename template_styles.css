@@ -4479,6 +4479,7 @@ a:hover u {
   border: 1px solid #c2c2c2;
   padding: 23px 25px 0 15px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.07);
+  margin-right: 23px;
 }
 @media all and (max-width: 767px) {
   .b-search-request {
