@@ -130,6 +130,11 @@ a:hover u {
   width: 50%;
   padding: 0 10px;
 }
+@media all and (min-width: 1200px) {
+  .l-row__half {
+    padding: 0 5px;
+  }
+}
 @media all and (max-width: 992px) {
   .l-row__half {
     float: none;
@@ -309,6 +314,7 @@ a:hover u {
 }
 .b-header__nav {
   float: left;
+  font-size: 15px;
 }
 @media all and (max-width: 767px) {
   .b-header__nav {
