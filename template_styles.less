@@ -663,6 +663,9 @@ a {
 		border: solid #e2e2e2;
 		border-width: 1px 0;
 
+        @media all and (max-width: @mq-medium) {/* 567 */
+          height: 96px;
+        }
 		@media all and (max-width: @mq-small) {
 			height: auto;
 			border-width: 0;
@@ -890,8 +893,11 @@ a {
 		}
 
 		@media all and (max-width: @mq-medium) {
-			display: none;
+			float: left;
 		}
+        @media all and (max-width: @mq-small) {
+          display: none;
+        }
 	}
 
 	&__btn {

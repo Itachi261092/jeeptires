@@ -588,6 +588,12 @@ a:hover u {
   border: solid #e2e2e2;
   border-width: 1px 0;
 }
+@media all and (max-width: 992px) {
+  .b-header__bottom {
+    /* 567 */
+    height: 96px;
+  }
+}
 @media all and (max-width: 767px) {
   .b-header__bottom {
     height: auto;
@@ -792,6 +798,11 @@ a:hover u {
   margin-right: 10px;
 }
 @media all and (max-width: 992px) {
+  .b-header__calc {
+    float: left;
+  }
+}
+@media all and (max-width: 767px) {
   .b-header__calc {
     display: none;
   }
