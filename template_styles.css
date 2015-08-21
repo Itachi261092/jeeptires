@@ -111,6 +111,12 @@ a:hover u {
 .l-container--content {
   padding-top: 8px;
 }
+.l-container--content .b-article {
+  margin-right: 237px;
+}
+.l-container--content .b-article .l-row__full {
+  clear: none;
+}
 .l-row {
   margin: 0 -10px;
 }
