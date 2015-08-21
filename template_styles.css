@@ -2823,6 +2823,9 @@ a:hover u {
 .b-filters__select--wide .sod_select {
   width: 100% !important;
 }
+.b-filters__select--wide .sod_select .sod_option:hover {
+  background: rgba(27, 104, 173, 0.1);
+}
 .b-filters__select:after {
   content: '';
   display: block;
