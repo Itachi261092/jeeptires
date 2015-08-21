@@ -4817,6 +4817,57 @@ a {
 
 	} // &__cell
 
+    &__merge{
+      position: relative;
+      .merge_cell{
+
+        @media all and (max-width: @mq-medium) {
+          display: none;
+        }
+        border-right: 1px solid #f0f0f0;
+        position: absolute;
+        background-color: #fff;
+        height: 41px;
+        top: 0px;
+        width: 100%;
+        text-align: left;
+        display: table;
+        z-index: 10;
+
+        // height for X cells = (42px * X)-1
+        &.merge2cells{
+          height: 83px; //height for merge 2 cells
+        }
+        &.merge3cells{
+          height: 125px; //height for merge 3 cells
+        }
+        &.merge4cells{
+          height: 167px; //height for merge 4 cells
+        }
+        &.merge5cells{
+          height: 209px; //height for merge 5 cells
+        }
+        &.merge6cells{
+          height: 251px; //height for merge 6 cells
+        }
+        &.merge7cells{
+          height: 293px; //height for merge 7 cells
+        }
+        &.merge8cells{
+          height: 335px; //height for merge 8 cells
+        }
+        &.merge9cells{
+          height: 377px; //height for merge 9 cells
+        }
+        &.merge10cells{
+          height: 419px; //height for merge 10 cells
+        }
+        strong{
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
 	&__inside {
 
 		&__cell {

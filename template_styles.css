@@ -4333,6 +4333,56 @@ a:hover u {
     border-bottom: 1px solid #f0f0f0;
   }
 }
+.b-params__merge {
+  position: relative;
+}
+.b-params__merge .merge_cell {
+  border-right: 1px solid #f0f0f0;
+  position: absolute;
+  background-color: #fff;
+  height: 41px;
+  top: 0px;
+  width: 100%;
+  text-align: left;
+  display: table;
+  z-index: 10;
+}
+@media all and (max-width: 992px) {
+  .b-params__merge .merge_cell {
+    display: none;
+  }
+}
+.b-params__merge .merge_cell.merge2cells {
+  height: 83px;
+}
+.b-params__merge .merge_cell.merge3cells {
+  height: 125px;
+}
+.b-params__merge .merge_cell.merge4cells {
+  height: 167px;
+}
+.b-params__merge .merge_cell.merge5cells {
+  height: 209px;
+}
+.b-params__merge .merge_cell.merge6cells {
+  height: 251px;
+}
+.b-params__merge .merge_cell.merge7cells {
+  height: 293px;
+}
+.b-params__merge .merge_cell.merge8cells {
+  height: 335px;
+}
+.b-params__merge .merge_cell.merge9cells {
+  height: 377px;
+}
+.b-params__merge .merge_cell.merge10cells {
+  height: 419px;
+}
+.b-params__merge .merge_cell strong {
+  display: table-cell;
+  vertical-align: middle;
+}
 .b-params__inside__cell:first-child {
   display: none;
 }
