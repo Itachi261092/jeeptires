@@ -590,7 +590,6 @@ a:hover u {
 }
 @media all and (max-width: 992px) {
   .b-header__bottom {
-    /* 567 */
     height: 96px;
   }
 }
@@ -1953,7 +1952,7 @@ a:hover u {
 .b-heading--h2 {
   font-size: 24px;
   margin: 26px 0 30px;
-  line-height: 26px;
+  line-height: 1.5;
 }
 @media all and (max-width: 767px) {
   .b-heading--h2 {
